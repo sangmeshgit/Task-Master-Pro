@@ -12,5 +12,5 @@ CMD ["java", "-jar", "app.jar"]
 #RUN mvn clean package
 
 #FROM eclipse-temurin:17-jdk-alpine
-#COPY --from=build /target/*.jar .
+#COPY --from=build /target/*.jar app.jar
 #ENTRYPOINT ["java", "-jar", "app.jar"]            
