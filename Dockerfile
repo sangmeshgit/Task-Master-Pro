@@ -7,7 +7,7 @@ CMD ["java", "-jar", "app.jar"]
 
 # Multi stage docker build
 
-#From maven:3.8.5-openjdk-17 AS build
+#From maven:3.9.4-eclipse-temurin-17-alpine AS build
 #COPY . .
 #RUN mvn clean package
 
